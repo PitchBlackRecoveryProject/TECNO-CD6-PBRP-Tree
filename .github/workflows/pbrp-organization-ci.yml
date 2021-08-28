@@ -17,7 +17,7 @@ env:
   BOT_API: ${{ secrets.BOT_API }}
   GCF_AUTH_KEY: ${{ secrets.GCF_AUTH_KEY }}
   GH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  GitHubMail: ${{ secrets.GITHUB_MAIL }}
+  GitHubMail: ${{ secrets.GitHubMail }}
   GitHubName: ${{ secrets.Mikesew1320 }}
   SFPassword: ${{ secrets.*804@805*Mb }}
   SFUserName: ${{ secrets.mikesew1320 }}
