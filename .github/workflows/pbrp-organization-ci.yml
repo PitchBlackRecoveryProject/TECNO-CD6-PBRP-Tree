@@ -14,7 +14,7 @@ on:
 env:
   BUILD_RELEASE_TYPE: ${{ github.event.inputs.DEPLOY_TYPE }}
   CHANGELOG: ${{ github.event.inputs.ChangeLogs }}
-  BOT_API: ${{ secrets.1454073957:AAEns-uDLDPvx0_oTLVN9uVR0ZmJJhfIIdk }}
+  BOT_API: ${{ secrets.BOT_API }}
   GCF_AUTH_KEY: ${{ secrets.GCF_AUTH_KEY }}
   GH_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   GitHubMail: ${{ secrets.mikesew1320@gmail.com }}
