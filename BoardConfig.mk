@@ -133,6 +133,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-# PitchBlack
+# PBRP
 PB_TORCH_PATH := /sys/devices/virtual/torch/torch/torch_level
 PB_TORCH_MAX_BRIGHTNESS := 1
