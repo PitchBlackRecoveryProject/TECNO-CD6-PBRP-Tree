@@ -136,3 +136,7 @@ TARGET_USES_LOGD := true
 # PBRP
 PB_TORCH_PATH := /sys/devices/virtual/torch/torch/torch_level
 PB_TORCH_MAX_BRIGHTNESS := 1
+
+# Padding
+TW_Y_OFFSET := 80
+TW_H_OFFSET := -80
