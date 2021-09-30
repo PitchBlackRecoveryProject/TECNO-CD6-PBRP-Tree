@@ -25,8 +25,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/pb/config/common.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/TECNO/CD6/recovery/root,recovery/root) \
-    device/TECNO/CD6/prebuilt/dtb:dtb.img
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/TECNO/CD6/recovery/root,recovery/root) \
+   # device/TECNO/CD6/prebuilt/dtb:dtb.img
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CD6
